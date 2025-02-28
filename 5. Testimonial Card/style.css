@@ -1,0 +1,29 @@
+body {
+  font-family: Poppins;
+  background-color: #8a8a8a;
+}
+.card {
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  width: 20%;
+  margin: auto;
+  box-shadow: 5px 7px #181818;
+}
+.flex {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex img {
+  width: 20%;
+  border-radius: 100px;
+}
+.flex .right .name {
+  font-weight: 600;
+}
+.flex .right {
+  line-height: 0.5rem;
+}
